@@ -1,0 +1,40 @@
+﻿@page "/Ejercicio5"
+<h3>Ejercicio 5</h3>
+<br />
+<h6>Programa que acepte un numero del 1 al 100000, mostrarlo en letras. Ejemplo 90 => noventa. (En español) </h6>
+<br />
+<br />
+
+<input @bind-value="entrada" class="form-control form-control-lg" type="text"  placeholder="Ingrese un numero" aria-label=".form-control-lg example">
+<br />
+<button @onclick="convertor" class="btn btn-success form-control form-control-lg" type="button" >Convertir</button>
+<br />
+<br />
+<div class="alert alert-info" role="alert">
+    @mostrado
+
+    @error
+</div>
+
+@code {
+
+    string entrada;
+    string mostrado ;
+    string error;
+
+    NumToLetters.Letters lett = new NumToLetters.Letters();
+
+
+    void convertor()
+    {
+        try
+        {
+            mostrado = lett.Convertir_A_Letras(entrada, true);
+        }
+        catch (Exception ex)
+        {
+            error = ex.Message;
+        }
+
+    }
+}

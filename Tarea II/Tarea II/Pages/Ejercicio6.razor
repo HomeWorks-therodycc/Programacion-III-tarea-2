@@ -1,0 +1,42 @@
+﻿@using HtmlAgilityPack;
+@page "/Ejercicio6"
+
+<h3>Ejercicio 6</h3>
+<br />
+<h6>Realiza un programa que acepte una URL, determine la cantidad de párrafos e imágenes que contienen estas. </h6>
+<br />
+<input class="form-control form-control-lg" type="text" @bind-value="@link" placeholder="Inserte una frase" aria-label=".form-control-lg example">
+<br />
+
+<br />
+<button @onclick="ejercicio6" class="btn btn-success form-control form-control-lg" type="button">Realizar</button>
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            Cantidad de imgs: @Img
+        </div>
+        <div class="col-sm">
+            Cantidad de parrafos @P
+        </div>
+
+    </div>
+</div>
+@code {
+    string link = "";
+    int P = 0;
+    int Img = 0;
+
+    void ejercicio6()
+    {
+
+
+        HtmlWeb web = new HtmlWeb();
+        var doc = web.Load(link);
+        P = doc.DocumentNode.Descendants("p").Count();
+        Img = doc.DocumentNode.Descendants("img").Count();
+
+
+    }
+}

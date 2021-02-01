@@ -1,0 +1,64 @@
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.exe
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.deps.json
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.runtimeconfig.json
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.runtimeconfig.dev.json
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.pdb
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.Views.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Tarea II.Views.pdb
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.csprojAssemblyReference.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.AssemblyInfoInputs.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.AssemblyInfo.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.csproj.CoreCompileInputs.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorComponent.input.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorComponent.output.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Tarea II.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.TagHelpers.input.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.TagHelpers.output.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorCoreGenerate.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorAssemblyInfo.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorAssemblyInfo.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\staticwebassets\Tarea II.StaticWebAssets.Manifest.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\staticwebassets\Tarea II.StaticWebAssets.xml
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\scopedcss\bundle\Tarea II.styles.css
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorTargetAssemblyInfo.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.RazorTargetAssemblyInfo.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.Views.pdb
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.pdb
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.genruntimeconfig.cache
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Tarea II.csproj.CopyComplete
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio1.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio1.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio2.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio3.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio4.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio5.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio6.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Ejercicio7.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio2.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio3.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio4.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio5.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio6.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\obj\Debug\netcoreapp3.1\Razor\Pages\Ejercicio7.razor.g.cs
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\NumToLetters.dll
+C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

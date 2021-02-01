@@ -1,0 +1,64 @@
+﻿@page "/Ejercicio4"
+<h3>Ejercicio 4</h3>
+
+
+<br />
+<h6>Programa que acepte las medidas de los lados de un triangulo determine el tipo de triangulo según sus lados. </h6>
+<br />
+
+<input class="form-control form-control-lg" type="text" @bind-value="@A" placeholder="Lado A" aria-label=".form-control-lg example">
+<br />
+
+<br />
+<input class="form-control form-control-lg" type="text" @bind-value="@B" placeholder="Lado B" aria-label=".form-control-lg example">
+<br />
+
+<br />
+<input class="form-control form-control-lg" type="text" @bind-value="@C" placeholder="Lado C" aria-label=".form-control-lg example">
+<br />
+
+<br />
+
+<button @onclick="ejercicioo4" class="btn btn-success form-control form-control-lg" type="button">Realizar</button>
+<br />
+<br />
+
+<div class="alert alert-info" role="alert">
+    @resultado
+</div>
+
+
+
+@code {
+
+
+
+    int A , B, C ;
+    string resultado = "";
+
+    void ejercicioo4()
+    {
+        @if (A == B && A == C)
+        {
+
+            resultado = "Es un Triangulo Equilatero!";
+
+        }
+        else if (A == B || A == C || C == B)
+        {
+
+            resultado = "Es un Triangulo Isosceles!";
+
+
+        }
+        else if (A != B || B != C || C != A)
+        {
+
+            resultado = "Es un Triangulo Escaleno!";
+
+        }
+
+    }
+
+
+}

@@ -1,0 +1,34 @@
+﻿@page "/Ejercicio3"
+
+
+
+
+<h3>Ejercicio 3</h3>
+<br />
+<h6>Programa que acepte un numero de una cedula dominicana y determine si es valida. (sin usar api).</h6>
+<br />
+
+<input @bind-value="@cedula" class="form-control form-control-lg" type="text" placeholder="Cedula" aria-label=".form-control-lg example">
+<br />
+<button class="btn btn-success form-control form-control-lg" type="button">Realizar</button>
+<br />
+<br />
+
+
+@if(cedula == "si"){
+<div class="alert alert-success" role="alert">
+   Esta cedula es valida!
+</div>
+}else if (cedula == "no")
+{
+<div class="alert alert-danger" role="alert">
+    Esta cedula no es valida!
+</div>
+
+}
+
+@code {
+
+    string cedula = "";
+
+}

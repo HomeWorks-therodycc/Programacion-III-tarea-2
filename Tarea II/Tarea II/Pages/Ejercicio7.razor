@@ -1,0 +1,107 @@
+﻿@page "/Ejercicio7"
+<h3>Ejercicio 7</h3>
+<br />
+<h6>
+    Programa que acepte una calificación (0 a 100), calcule el equivalente
+    literal de la misma y una posible distribución para el siguiente esquema: 40, 30, 30. Ejemplo si digitamos 90 el programa mostrara A => 31, 29 , 30
+</h6>
+<br />
+
+<br />
+
+<input maxlength="2" class="form-control form-control-lg" type="text" @bind-value="@notaentrada" placeholder="Digite su calificación" aria-label=".form-control-lg example">
+<br />
+<br />
+<button class="btn btn-success form-control form-control-lg" type="button" @onclick="ejercicioo7">Verificar distribucción</button>
+<br />
+<br />
+<div class="container">
+    <div class="row">
+        <div class="col-sm btn btn-dark" style="margin=10px;">
+            @Num1
+        </div>
+        <div class="col-sm btn btn-info" style="margin=10px;">
+            @Num2
+        </div>
+        <div class="col-sm btn btn-dark" style="margin=10px;">
+            @Num3
+        </div>
+    </div>
+</div>
+
+<br />
+
+
+@if (nota > 69 && nota < 101)
+{
+    <div class="alert alert-info" role="alert">
+        @Resultado
+    </div>
+}
+else if (nota < 70 )
+{
+    <div class="alert alert-danger" role="alert">
+        @Resultado
+    </div>
+}
+
+
+
+
+
+@code{
+
+    int nota = 0;
+    string notaentrada = "";
+    int Num1 = 0;
+    int Num2 = 0;
+    int Num3 = 0;
+    string Resultado = "";
+
+
+    void ejercicioo7()
+    {
+        try
+        {
+            nota = int.Parse(notaentrada);
+
+
+            Random num = new Random();
+            Num1 = num.Next(0, 35);
+            Num2 = num.Next(0, 35);
+            Num3 = num.Next(0, 30);
+
+
+            while (Num1 + Num2 + Num3 != nota)
+            {
+                Num1 = num.Next(1, 35);
+                Num2 = num.Next(1, 35);
+                Num3 = num.Next(1, 30);
+            }
+
+
+            if (nota >= 90 && nota <= 103)
+            {
+                Resultado = "Su calificacion es A";
+            }
+            else if (nota >= 80 && nota < 90)
+            {
+                Resultado = "Su calificacion es B";
+            }
+            else if (nota >= 70 && nota < 80)
+            {
+                Resultado = "Su calificacion es C";
+            }
+            else if (nota < 70)
+            {
+                Resultado = "Reprobado";
+            }
+
+
+        }
+        catch
+        {
+
+        }
+    }
+}
