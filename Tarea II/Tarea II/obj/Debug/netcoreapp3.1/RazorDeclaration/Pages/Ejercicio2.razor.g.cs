@@ -83,6 +83,35 @@ using Tarea_II.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 37 "C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\Pages\Ejercicio2.razor"
+       
+
+    SacadoDatos Apii = new SacadoDatos();
+    string nombre = "", phone = "", email = "";
+    string imagen = "", password = "", Direccion = "";
+
+    
+    public void obtenerDatos()
+    {
+        var datos = Apii.Conseguir();
+        foreach (var people in datos)
+        {
+
+            nombre = people.name.first + " " + people.name.last;
+            imagen = people.picture.large;
+            phone = people.phone;
+            Direccion = people.location.city + "," + people.location.country;
+            email = people.email;
+
+
+        }
+    }
+
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

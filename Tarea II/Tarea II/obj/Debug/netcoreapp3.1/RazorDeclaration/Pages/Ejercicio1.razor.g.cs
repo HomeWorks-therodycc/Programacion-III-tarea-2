@@ -86,9 +86,9 @@ using Tarea_II.Shared;
 #nullable restore
 #line 28 "C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\Pages\Ejercicio1.razor"
        
-    int vocal = 0;
-    int consonante = 0;
-    int espacio = 0;
+    int vocal { get; set; }
+    int consonante { get; set; }
+    int espacio { get; set; }
     string frase = "";
 
     void ejercicioo1()

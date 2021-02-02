@@ -1,23 +1,60 @@
 ﻿
 @page "/Ejercicio2"
 
+<div class="container-fluid">
+    <h3>Ejercicio 2</h3>
+    <br />
+    <h6>Programa que muestre todos los datos de un usuario de random users:</h6>
+    <br />
 
-<h3>Ejercicio 2</h3>
-<br />
-<h6>Programa que muestre todos los datos de un usuario de random users:</h6>
-<br />
+    <button @onclick="obtenerDatos" class="btn btn-success form-control form-control-lg" type="button">Mostrar usuario random</button>
+    <br />
+    <br />
 
-<button  class="btn btn-success form-control form-control-lg" type="button">Convertir</button>
-<br />
-<br />
-<div class="alert alert-info" role="alert">
+    <div class="card mb-12  shadow-lg p-3 mb-5 bg-white rounded" style="">
+        <div class="row col-12">
+            <div class="col-md-4">
+                <img src="@imagen" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
 
+                    <p class="card-text">@nombre </p>
+                    <p class="card-text">@phone </p>
+                    <p class="card-text">@email </p>
+                    <p class="card-text">@Direccion </p>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
+
 
 
 @code {
 
+    SacadoDatos Apii = new SacadoDatos();
+    string nombre = "", phone = "", email = "";
+    string imagen = "", password = "", Direccion = "";
 
- 
+    
+    public void obtenerDatos()
+    {
+        var datos = Apii.Conseguir();
+        foreach (var people in datos)
+        {
+
+            nombre = people.name.first + " " + people.name.last;
+            imagen = people.picture.large;
+            phone = people.phone;
+            Direccion = people.location.city + "," + people.location.country;
+            email = people.email;
+
+
+        }
+    }
 
 }

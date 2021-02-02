@@ -10,25 +10,60 @@
 
 <input @bind-value="@cedula" class="form-control form-control-lg" type="text" placeholder="Cedula" aria-label=".form-control-lg example">
 <br />
-<button class="btn btn-success form-control form-control-lg" type="button">Realizar</button>
+<button @onclick="ValidaCedula" class="btn btn-success form-control form-control-lg" type="button">Realizar</button>
 <br />
 <br />
 
 
-@if(cedula == "si"){
+
 <div class="alert alert-success" role="alert">
-   Esta cedula es valida!
-</div>
-}else if (cedula == "no")
-{
-<div class="alert alert-danger" role="alert">
-    Esta cedula no es valida!
-</div>
 
-}
+</div>
+<div class="alert alert-danger" role="alert">
+        @ErrorCantidad
+</div>
+<div class="alert alert-warning" role="alert">
+        @ValidoError
+</div>
+   
 
 @code {
+    //Declaración de variables a nivel de método o función.
+    string cedula;
+    int verificador;
+    int digito;
+    int digitoVerificador;
+    int digitoImpar;
+    int sumaPar;
+    int sumaImpar;
+    int longitud;
 
-    string cedula = "";
+    string cedulaverdadera;
 
-}
+
+    string ErrorCantidad = "";
+    string ValidoError = "";
+
+
+    void ValidaCedula()
+    {
+
+        try
+        {
+            if (longitud == 11)
+            {
+
+            }
+            else
+            {
+                ErrorCantidad = "La cédula debe contener once(11) digitos";
+            }
+        }
+        catch
+        {
+            ValidoError = "Sintasis incorrecta";
+        }
+
+    }
+
+    }

@@ -91,21 +91,27 @@ using HtmlAgilityPack;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 26 "C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\Pages\Ejercicio6.razor"
+#line 30 "C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\Pages\Ejercicio6.razor"
        
     string link = "";
     int P = 0;
     int Img = 0;
+    string problem; 
 
     void ejercicio6()
     {
 
-
-        HtmlWeb web = new HtmlWeb();
-        var doc = web.Load(link);
-        P = doc.DocumentNode.Descendants("p").Count();
-        Img = doc.DocumentNode.Descendants("img").Count();
-
+        try
+        {
+            HtmlWeb web = new HtmlWeb();
+            var doc = web.Load(link);
+            P = doc.DocumentNode.Descendants("p").Count();
+            Img = doc.DocumentNode.Descendants("img").Count();
+        }
+        catch
+        {
+            problem = "Debe poner algo valido";
+        }
 
     }
 

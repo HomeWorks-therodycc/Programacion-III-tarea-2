@@ -20,23 +20,33 @@
         <div class="col-sm">
             Cantidad de parrafos @P
         </div>
-
     </div>
 </div>
+<br />
+<div class="alert alert-warning" role="alert">
+    @problem
+</div>
+
 @code {
     string link = "";
     int P = 0;
     int Img = 0;
+    string problem; 
 
     void ejercicio6()
     {
 
-
-        HtmlWeb web = new HtmlWeb();
-        var doc = web.Load(link);
-        P = doc.DocumentNode.Descendants("p").Count();
-        Img = doc.DocumentNode.Descendants("img").Count();
-
+        try
+        {
+            HtmlWeb web = new HtmlWeb();
+            var doc = web.Load(link);
+            P = doc.DocumentNode.Descendants("p").Count();
+            Img = doc.DocumentNode.Descendants("img").Count();
+        }
+        catch
+        {
+            problem = "Debe poner algo valido";
+        }
 
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "pwHQXX2VC5mww2c6X4+FalU0vo+FkOTsn4yKR9n8BnH302jTRoIsVqwz+p0QQjb7sXbcSsYWpDJmpvoEnZlxAg==",
+  "dgSpecHash": "MABtrxA5bU3p0BT5B8aE6A5fiVGvnb2dnSbFdmnDldRqyfplA/0797d3vtO8FwuwxLb8OpUyG2ZovDbGbCXnKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\rody castro cuello\\Documents\\PROGRAMACION\\Programacion III\\Tarea2\\Tarea II\\Tarea II\\Tarea II.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rody castro cuello\\.nuget\\packages\\htmlagilitypack\\1.11.30\\htmlagilitypack.1.11.30.nupkg.sha512",
-    "C:\\Users\\rody castro cuello\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\rody castro cuello\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\rody castro cuello\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
   ],
   "logs": []
 }

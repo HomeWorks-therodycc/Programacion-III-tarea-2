@@ -86,9 +86,45 @@ using Tarea_II.Shared;
 #nullable restore
 #line 30 "C:\Users\rody castro cuello\Documents\PROGRAMACION\Programacion III\Tarea2\Tarea II\Tarea II\Pages\Ejercicio3.razor"
        
+    //Declaración de variables a nivel de método o función.
+    string cedula;
+    int verificador;
+    int digito;
+    int digitoVerificador;
+    int digitoImpar;
+    int sumaPar;
+    int sumaImpar;
+    int longitud;
 
-    string cedula = "";
+    string cedulaverdadera;
 
+
+    string ErrorCantidad = "";
+    string ValidoError = "";
+
+
+    void ValidaCedula()
+    {
+
+        try
+        {
+            if (longitud == 11)
+            {
+
+            }
+            else
+            {
+                ErrorCantidad = "La cédula debe contener once(11) digitos";
+            }
+        }
+        catch
+        {
+            ValidoError = "Sintasis incorrecta";
+        }
+
+    }
+
+    
 
 #line default
 #line hidden
